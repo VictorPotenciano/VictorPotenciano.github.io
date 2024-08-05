@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- --------- UNICONS ---------- -->
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.8/css/line.css"
+    />
+
+    <!-- --------- CSS ---------- -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- --------- FAVICON ---------- -->
+    <link rel="shortcut icon" href="letra-v.png" type="image/x-icon" />
+
+    <title>Portfolio | Victor Potenciano</title>
+  </head>
+  <body>
+    <div class="container">
+      <!-- --------------- HEADER --------------- -->
+      <nav id="header">
+        <div class="nav-logo">
+          <p class="nav-name">Victor</p>
+          <span>.</span>
+        </div>
+        <div class="nav-menu" id="myNavMenu">
+          <ul class="nav_menu_list">
+            <li class="nav_list">
+              <a href="#home" class="nav-link active-link">Inicio</a>
+              <div class="circle"></div>
+            </li>
+            <li class="nav_list">
+              <a href="#about" class="nav-link">Sobre Mi</a>
+              <div class="circle"></div>
+            </li>
+            <li class="nav_list">
+              <a href="#contact" class="nav-link">Contacto</a>
+              <div class="circle"></div>
+            </li>
+          </ul>
+        </div>
+        <div class="nav-menu-btn">
+          <i class="uil uil-bars" onclick="myMenuFunction()"></i>
+        </div>
+      </nav>
+      <!-- -------------- MAIN ---------------- -->
+      <main class="wrapper">
+        <!-- -------------- FEATURED BOX ---------------- -->
+        <section class="featured-box" id="home">
+          <div class="featured-text">
+            <div class="featured-text-card">
+              <span>Victor Potenciano</span>
+            </div>
+            <div class="featured-name">
+              <p>I'm <span class="typedText">Designer</span></p>
+            </div>
+            <div class="featured-text-info">
+              <p>
+                Junior full stack developer con pasión por crear
+                sitios web visualmente impresionantes y fáciles de usar.
+              </p>
+            </div>
+            <div class="featured-text-btn">
+              <button class="btn">
+                Descaragr Cv <i class="uil uil-file-alt"></i>
+              </button>
+            </div>
+            <div class="social_icons">
+              <div class="icon">
+                <a
+                  href="https://www.linkedin.com/in/victor-potenciano-9a29392a4/"
+                  ><i class="uil uil-linkedin-alt"></i
+                ></a>
+              </div>
+              <div class="icon">
+                <a href="https://github.com/VictorPotenciano"
+                  ><i class="uil uil-github-alt"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <div class="featured-image">
+            <div class="image">
+              <img src="avatar.jpg" alt="avatar" />
+            </div>
+          </div>
+          <div class="scroll-icon-box">
+            <a href="#about" class="scroll-btn">
+              <i class="uil uil-mouse-alt"></i>
+              <p>Scroll Down</p>
+            </a>
+          </div>
+        </section>
+        <!-- -------------- ABOUT BOX ---------------- -->
+        <section class="section" id="about">
+          <div class="top-header">
+            <h1>Sobre Mi</h1>
+          </div>
+          <div class="row">
+            <div class="col">
+              <div class="about-info">
+                <h3>Mi Introducción</h3>
+                <p>
+                  Soy un Junior Full Stack, que sabe manejarse con HTML, CSS y
+                  Javascript, tambien se hacer projectos con Angular para el
+                  FrontEnd y SpringBoot o Node.Js para el BackEnd, tambien se
+                  utilizar bases de datos como MongoDb o PostgreSQL.
+                </p>
+              </div>
+            </div>
+            <div class="col">
+              <div class="skills-box">
+                <div class="skills-header">
+                  <h3>Frontend</h3>
+                </div>
+                <div class="skills-list">
+                  <span>HTML</span>
+                  <span>CSS</span>
+                  <span>Bootstrap</span>
+                  <span>Tailwind</span>
+                  <span>Angular</span>
+                </div>
+              </div>
+              <div class="skills-box">
+                <div class="skills-header">
+                  <h3>Backend</h3>
+                </div>
+                <div class="skills-list">
+                  <span>Spring Boot</span>
+                  <span>JAVA</span>
+                  <span>Javascript</span>
+                </div>
+              </div>
+              <div class="skills-box">
+                <div class="skills-header">
+                  <h3>Database</h3>
+                </div>
+                <div class="skills-list">
+                  <span>MySQL</span>
+                  <span>PostgreSQL</span>
+                  <span>MongoDB</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- -------------- CONTACT BOX ---------------- -->
+        <section class="section" id="contact">
+          <div class="top-header">
+            <h1>Contactame!!</h1>
+            <span>Tienes algun projecto en mente? Contactame aqui</span>
+          </div>
+          <div class="row">
+            <div class="contact-info">
+              <h2>
+                Escribeme o Llamame <i class="uil uil-corner-right-down"></i>
+              </h2>
+              <p><i class="uil uil-envelope"></i> Email: vpotenv98@gmail.com</p>
+              <p><i class="uil uil-phone"></i> Tel: +34 660 52 94 20</p>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <!-- --------------- FOOTER --------------- -->
+      <footer>
+        <div class="top-footer">
+          <p>Victor Potenciano</p>
+        </div>
+        <div class="middle-footer">
+          <ul class="footer-menu">
+            <li class="footer_menu_list">
+              <a href="#home">Inicio</a>
+            </li>
+            <li class="footer_menu_list">
+              <a href="#about">Sobre Mi</a>
+            </li>
+            <li class="footer_menu_list">
+              <a href="#contact">Contacto</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-social-icons">
+          <div class="icon">
+            <a href="https://www.linkedin.com/in/victor-potenciano-9a29392a4/"
+              ><i class="uil uil-linkedin-alt"></i
+            ></a>
+          </div>
+          <div class="icon">
+            <a href="https://github.com/VictorPotenciano"
+              ><i class="uil uil-github-alt"></i
+            ></a>
+          </div>
+        </div>
+        <div class="bottom-footer">
+          <p>
+            Copyright &copy;
+            <a href="#home" style="text-decoration: none"
+              >Victor Potenciano - All rights reserved</a
+            >
+          </p>
+        </div>
+      </footer>
+    </div>
+    <!-- ----- TYPING JS Link ----- -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+    <!-- ----- SCROLL REVEAL JS Link----- -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- ----- MAIN JS ----- -->
+    <script src="main.js"></script>
+  </body>
+</html>
